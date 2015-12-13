@@ -1,22 +1,29 @@
 body {
-      color: #ffffff;
-      background-color: #0188cc;
+      color: #00bfff;      
       font-family: Arial, sans-serif;
       font-size: 14px;
     }
     
-    h1 {
-      font-size: 200%;
+h1 {
+      font-size: 2em;
       font-weight: normal;
       margin-bottom: 0;
+      color:white;
     }
     
-    h2 {
-      font-size: 100%;
+h2 {
+      font-size: 1.5em;
       font-weight: normal;
       margin-bottom: 0;
-    }
-.center{
+}
+figure{
+  padding:2px;
+  color: #4d0000;
+}
+
+.container{
   text-align: center;
-  color:red;
+  padding-left:1%;
+  padding-right:1%;
+  background-color: #936c6c;
 }
