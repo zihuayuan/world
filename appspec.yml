@@ -4,9 +4,9 @@ files:
   - source: /index.html
     destination: /var/www/html/
   - source: /css
-    destination: /var/www/html/
+    destination: /var/www/html/css/
   - source: /images
-    destination: /var/www/html/
+    destination: /var/www/html/images/
 hooks:
   BeforeInstall:
     - location: scripts/install_dependencies
